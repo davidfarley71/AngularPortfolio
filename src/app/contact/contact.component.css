@@ -1,0 +1,17 @@
+.contactclass {
+  text-align: center;
+}
+.centered {
+  display: flex;
+  justify-content: center;
+}
+.textareaclass {
+  width: 300px;
+  height: 75px;
+}
+.inputclass {
+  float: left;
+}
+a {
+  color: cornflowerblue;
+}

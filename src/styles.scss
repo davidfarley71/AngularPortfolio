@@ -1,1 +1,8 @@
-/* You can add global styles to this file, and also import other style files */
+/*styles for the ag-grid*/
+@import "~ag-grid-community/dist/styles/ag-grid.css";
+@import "~ag-grid-community/dist/styles/ag-theme-balham.css";
+$odd-row-background-color: #CFD8DC;
+
+$active: #E91E63; // pink-500 from https://www.materialui.co/colors
+// Import the ag-Grid balham theme
+@import '~ag-grid-community/src/styles/ag-theme-balham/sass/ag-theme-balham';
