@@ -8,11 +8,11 @@ import data from  "../../assets/GoodReads"
 })
 export class BooksComponent implements OnInit {
   columnDefs = [
-    { headerName: 'Title', field: 'Title', sortable: true, filter: true  },
-    { headerName: 'Author', field: 'Author', sortable: true, filter: true  },
-    { headerName: 'Finished', field: 'Finished', sortable: true, filter: true  },
+    { headerName: 'Title', field: 'Title', sortable: true, filter: true, width: 450  },
+    { headerName: 'Author', field: 'Author', sortable: true, filter: true, width: 250   },
+    { headerName: 'Finished', field: 'Finished', sortable: true, filter: true,  width: 100  },
     { headerName: 'Date Recorded', field: 'DateRecorded', sortable: true, filter: true  },
-    { headerName: 'My Rating', field: 'MyRating', sortable: true, filter: true  },
+    { headerName: 'My Rating', field: 'MyRating', sortable: true, filter: true , width: 100 },
     { headerName: 'Average Rating', field: 'AverageRating', sortable: true, filter: true  },
     { headerName: 'Number Of Pages', field: 'NumberOfPages', sortable: true, filter: true  },
     { headerName: 'Publisher', field: 'Publisher', sortable: true, filter: true  },
