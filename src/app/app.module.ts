@@ -9,6 +9,7 @@ import { BooksComponent } from './books/books.component';
 import { ContactComponent } from './contact/contact.component';
 import { FormsModule }    from '@angular/forms';
 import { AgGridModule } from 'ag-grid-angular';
+import { CoolstuffComponent } from './coolstuff/coolstuff.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { AgGridModule } from 'ag-grid-angular';
     ContactComponent,
     AboutComponent,
     BooksComponent,
-    ContactComponent
+    ContactComponent,
+    CoolstuffComponent
   ],
   imports: [
     BrowserModule,
