@@ -9,7 +9,7 @@ import { BooksComponent } from './books/books.component';
 import { ContactComponent } from './contact/contact.component';
 import { FormsModule }    from '@angular/forms';
 import { AgGridModule } from 'ag-grid-angular';
-import { CoolstuffComponent } from './coolstuff/coolstuff.component';
+
 
 @NgModule({
   declarations: [
@@ -20,7 +20,6 @@ import { CoolstuffComponent } from './coolstuff/coolstuff.component';
     AboutComponent,
     BooksComponent,
     ContactComponent,
-    CoolstuffComponent
   ],
   imports: [
     BrowserModule,
