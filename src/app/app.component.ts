@@ -16,6 +16,10 @@ export class AppComponent {
     window.open("https://david-farley-portfolio.netlify.com", "_blank");
   }
 
+  onNavigateVue() {
+    window.open("https://vueportfolio-f5902.firebaseapp.com", "_blank");
+  }
+
   title = 'angularportfolio';
   link = "../assets/download.png";
 }

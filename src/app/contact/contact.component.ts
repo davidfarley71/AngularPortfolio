@@ -37,13 +37,13 @@ export class ContactComponent implements OnInit {
       this.http.get('https://jzmjq2p2qe.execute-api.us-east-2.amazonaws.com/dev/?name="' + this.name + '" &email="' + this.email + '"&phonenumber="' + this.phone + '" &message="' + this.message + '"&author="' + this.author + '"&title="' + this.title + '"').toPromise().then(data => {
         console.log(data)
       })
-      // this.name = "";
-      // this.phone = "";
-      // this.email = "";
-      // this.message = "";
-      // this.title = "";
-      // this.author = "";
-     // alert("Thanks for contacting me! Ill receive your message very soon!")
+      this.name = "";
+      this.phone = "";
+      this.email = "";
+      this.message = "";
+      this.title = "";
+      this.author = "";
+     alert("Thanks for contacting me! Ill receive your message very soon!")
     }
   }
 
