@@ -8,9 +8,12 @@
 .textareaclass {
   width: 300px;
   height: 75px;
+  border-radius: 5px;
 }
 .inputclass {
   float: left;
+  width: 80%;
+  border-radius: 5px;
 }
 a {
   color: cornflowerblue;
@@ -19,4 +22,9 @@ button {
   border-radius: 5px;
   padding: 5px;
   margin: 20px;
+}
+.contactTable {
+  background: darkred;
+  padding: 35px;
+  border-radius: 10px;
 }
