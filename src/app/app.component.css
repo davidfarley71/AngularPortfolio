@@ -1,12 +1,15 @@
+/* AppComponent's private CSS styles */
 h1 {
   font-size: 1.2em;
   margin-bottom: 0;
 }
+
 h2 {
   font-size: 2em;
   margin-top: 0;
   padding-top: 0;
 }
+
 nav a {
   padding: 5px 10px;
   text-decoration: none;
@@ -15,21 +18,27 @@ nav a {
   background-color: #eee;
   border-radius: 4px;
 }
+
 nav a:visited,
 a:link {
   color: #26262b;
 }
+
 nav a:hover {
   color: red;
   background-color: deepskyblue;
   cursor: pointer;
 }
+
 .flexclass nav a {
   margin: 15px;
 }
+
 .flexclass {
   text-align: center;
 }
+
 .anchortag {
   color: #26262b;
 }
+/*# sourceMappingURL=app.component.css.map */
